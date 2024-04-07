@@ -26,7 +26,7 @@ function upperdiv2()
 }
 function lowerdiv1()
 {
-    window.open('https://github.com/Aadarsh032/Employee-Management-System-Project');
+    window.open('https://furniture-premium.vercel.app/');
 }
 function lowerdiv2()
 {
