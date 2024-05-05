@@ -35,17 +35,17 @@ function lowerdiv2()
 
 function SendEmail () 
         {
-           Email.send({
-                SecureToken : "dadf3d1f-20c1-4d43-9004-d122102bff50",
-                To : 'kumarn206@gmail.com',
-                From : "info@orangecom.xyz",
-                Subject : "Contact Inquiry From Resume Website",
-                 Body : "Name : "+document.getElementById('name').value
-                + "<br> Mine Email  : "+document.getElementById('email').value
-                + "<br> Client's Email  : "+document.getElementById('emailclient').value
-                +  "<br> Phone Number : " + document.getElementById('phone').value
-                + "<br> Message : "+document.getElementById('message').value
-            }).then(
-              message => alert("Message Sent Successfully")
-            );     
+           // Email.send({
+           //      SecureToken : "dadf3d1f-20c1-4d43-9004-d122102bff50",
+           //      To : 'kumarn206@gmail.com',
+           //      From : "info@orangecom.xyz",
+           //      Subject : "Contact Inquiry From Resume Website",
+           //       Body : "Name : "+document.getElementById('name').value
+           //      + "<br> Mine Email  : "+document.getElementById('email').value
+           //      + "<br> Client's Email  : "+document.getElementById('emailclient').value
+           //      +  "<br> Phone Number : " + document.getElementById('phone').value
+           //      + "<br> Message : "+document.getElementById('message').value
+           //  }).then(
+           //    message => alert("Message Sent Successfully")
+           //  );     
         }
